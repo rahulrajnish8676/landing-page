@@ -1,0 +1,182 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+#header{
+    height: 10%;
+    width: 100%;
+    background-color:white;
+    position:fixed;
+    display: flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-around;
+   
+}
+#fakeHeader{
+    height: 10%;
+    width: 100%;
+    background-color: blueviolet;
+}
+.text{
+   
+    
+    color: rgb(1, 27, 80);
+    display: flex;
+}
+.text:hover{
+    color: rgb(6, 167, 221);
+}
+#logo{
+   
+    height: 70%;
+   
+}
+#logo img{
+    height: 100%; 
+    width: 100%; 
+    object-fit: cover;
+}
+#contact{
+    
+    font-weight: lighter;
+}
+#login{
+    display: flex;
+    padding: 10px;
+    border-radius: 50px;
+}
+#login:hover{
+    background-color: lightblue;
+}
+.icon{
+    display: flex;
+    padding: 10px;
+    border-radius: 50%;
+    
+}
+.icon:hover{
+    background-color: lightblue;
+}
+#try{
+    background-color: green;
+    padding: 10px 20px;
+    color: white;
+}
+#try:hover{
+    background-color: rgb(0, 75, 0);
+}
+
+#page1{
+    height: 90%;
+    width: 100%;
+    
+}
+#strip1{
+    height: 10%;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#strip1 u{
+    font-weight: lighter;
+    margin-left: 20px;
+}
+#content{
+    height: 78%;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+}
+#heading{
+    height: 12%;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    font-weight: 600;
+}
+
+#page2{
+    height: 90%;
+    width: 100%;
+    background-color: gray;
+
+}
+#box1{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+}
+#btns{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+#btns1{
+    width: 23%;
+    padding: 10px 20px;
+    background-color: rgb(1, 153, 204);
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+#btns1:hover{
+    background-color: rgb(1, 50, 66);
+}
+#btns2{
+    text-align: center;
+    margin: 10px;
+    width: 23%;
+    padding: 10px 20px;
+    color: rgb(5, 144, 191);
+    border: solid rgb(4, 140, 185);
+}
+#btns2:hover{
+    background-color: lightblue;
+    color: rgb(2, 38, 50);
+    border-color: rgb(2, 38, 50);
+}
+#box1 h1{
+    color: rgb(2, 2, 64);
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+#box1 p{
+    
+    margin-left: 100px;
+    margin-top: 25px;
+    font-size: x-large;
+}
+#box2{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+}
+#box2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#video{
+    margin-right: 20%;
+    margin-top: 20%;
+    height: 80%;
+    
+
+}
